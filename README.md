@@ -2,6 +2,8 @@
 
 Static public pages for Virtual Shell, hosted through GitHub Pages from this repository's `main` branch.
 
+Live site: https://boreasic.github.io/virtualshell/
+
 - `index.html` — product overview
 - `support.html` — public support URL
 - `privacy.html` — public privacy policy URL
