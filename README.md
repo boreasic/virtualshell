@@ -1,6 +1,6 @@
-# Virtual Shell website
+# VirtualShell website
 
-Static public pages for Virtual Shell, hosted through GitHub Pages from this repository's `main` branch.
+Static public pages for VirtualShell, hosted through GitHub Pages from this repository's `main` branch.
 
 Live site: https://boreasic.github.io/virtualshell/
 

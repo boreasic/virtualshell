@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="How Virtual Shell handles local files, network connections, optional location, and support requests.">
+  <meta name="description" content="How VirtualShell handles local files, network connections, optional location, and support requests.">
   <meta name="theme-color" content="#071a1b">
-  <title>Privacy — Virtual Shell</title>
+  <title>Privacy — VirtualShell</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header"><a class="brand" href="./" aria-label="Virtual Shell home"><span class="brand-mark">#_</span><span>Virtual Shell</span></a><nav aria-label="Main navigation"><a href="./">Home</a><a href="support.html">Support</a><a href="privacy.html" aria-current="page">Privacy</a></nav></header>
+  <header class="site-header"><a class="brand" href="./" aria-label="VirtualShell home"><span class="brand-mark">#_</span><span>VirtualShell</span></a><nav aria-label="Main navigation"><a href="./">Home</a><a href="support.html">Support</a><a href="privacy.html" aria-current="page">Privacy</a></nav></header>
   <main id="main" class="content-page">
-    <div class="page-intro"><p class="eyebrow">Privacy policy · Updated 27 October 2026</p><h1>How Virtual Shell handles data.</h1><p class="lead">Virtual Shell provides a local Linux environment on iPhone and iPad. This page explains the app’s built-in data handling and where your own commands can send information.</p></div>
+    <div class="page-intro"><p class="eyebrow">Privacy policy · Updated 27 October 2026</p><h1>How VirtualShell handles data.</h1><p class="lead">VirtualShell provides a local Linux environment on iPhone and iPad. This page explains the app’s built-in data handling and where your own commands can send information.</p></div>
     <div class="article-grid">
       <article class="article policy">
-        <h2>Data on your device</h2><p>Virtual Shell keeps its Linux roots, terminal state, and app settings on your device. The app does not require a Boreasic account and does not include an advertising or analytics SDK. Files you expose through the iOS Files app are available to other apps when you choose to open or share them.</p>
-        <h2>Optional location</h2><p>A guest program receives coordinates only while it reads <code>/dev/location</code>. Virtual Shell requests iOS When In Use permission when a foreground command first needs access. An authorized active reader can continue receiving updates in the background, with the iOS location indicator visible. Closing the last reader stops location updates. Denying permission makes the read fail.</p><p>Coordinates are delivered to the local guest program. A program you run may send them to a network service; review the programs and commands you use.</p>
-        <h2>Network connections</h2><p>Programs in the guest can connect to services you choose. Package installation contacts configured package repositories, which may receive your IP address and ordinary request information. Virtual Shell also makes a request to an Apple network endpoint at launch to trigger iOS local-network permission behavior on devices where that prompt is required. Optional Codex remote control and custom server features connect or listen only when enabled by the user; external services used by those features have their own privacy practices.</p>
+        <h2>Data on your device</h2><p>VirtualShell keeps its Linux roots, terminal state, and app settings on your device. The app does not require a Boreasic account and does not include an advertising or analytics SDK. Files you expose through the iOS Files app are available to other apps when you choose to open or share them.</p>
+        <h2>Optional location</h2><p>A guest program receives coordinates only while it reads <code>/dev/location</code>. VirtualShell requests iOS When In Use permission when a foreground command first needs access. An authorized active reader can continue receiving updates in the background, with the iOS location indicator visible. Closing the last reader stops location updates. Denying permission makes the read fail.</p><p>Coordinates are delivered to the local guest program. A program you run may send them to a network service; review the programs and commands you use.</p>
+        <h2>Network connections</h2><p>Programs in the guest can connect to services you choose. Package installation contacts configured package repositories, which may receive your IP address and ordinary request information. VirtualShell also makes a request to an Apple network endpoint at launch to trigger iOS local-network permission behavior on devices where that prompt is required. Optional Codex remote control and custom server features connect or listen only when enabled by the user; external services used by those features have their own privacy practices.</p>
         <h2>Support requests</h2><p>If you open a support issue, the information you choose to post is sent to GitHub and may be public. Do not include secrets, private files, or precise location data. GitHub’s privacy policy applies to that service.</p>
         <h2>Your choices</h2><p>You can deny location permission in iOS Settings, stop a command reading location with Ctrl-C, remove files and roots you no longer need, and disable optional server features in the app. iOS controls app backups and deletion.</p>
         <h2>Questions</h2><p>For privacy questions, <a href="https://github.com/boreasic/virtualshell/issues/new">open a support issue</a> without including private data. This policy may be updated when the app’s behavior changes.</p>
@@ -25,6 +25,6 @@
       <aside class="support-card"><span class="feature-number">AT A GLANCE</span><h2>Local by default</h2><p>Files and terminal state stay on device unless you choose to move them or run a program that sends data. Location starts only for an active reader and follows the iOS permission and indicator.</p><a href="support.html">Get support <span aria-hidden="true">→</span></a></aside>
     </div>
   </main>
-  <footer><span>Virtual Shell · Boreasic</span><div><a href="./">Home</a><a href="support.html">Support</a><a href="https://github.com/boreasic/virtualshell">GitHub</a></div></footer>
+  <footer><span>VirtualShell · Boreasic</span><div><a href="./">Home</a><a href="support.html">Support</a><a href="https://github.com/boreasic/virtualshell">GitHub</a></div></footer>
 </body>
 </html>
